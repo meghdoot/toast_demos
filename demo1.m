@@ -1,4 +1,4 @@
-% Demo 1: data generation
+% Demo 1: data generation, homogeneous propert
 
 clc, clear all, close all,
 
@@ -34,7 +34,7 @@ subplot(121),mesh.Display(log(abs(Phi(:,1)))),title('LAmp')% log-amplitude
 subplot(122),mesh.Display(angle(Phi(:,1))),title('Phs')% phase
 
 figure,
-plot([log(abs(Gamma(:)));angle(Gamma(:))]),title('Boundary data')
+plot([log(abs(Gamma(:)));angle(Gamma(:))]),title('Data')
 
 
 
