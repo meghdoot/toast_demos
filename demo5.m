@@ -1,4 +1,4 @@
-%% compute data and Jacobian for CW fDOT
+% Demo 5: compute data and Jacobian for CW fDOT
 
 clc,close all,clear all,
 addpath(genpath('../v2/'))
